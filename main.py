@@ -1,19 +1,19 @@
-def func_x_25(x):
-    x = x ** 2
-    for i in range(25):
-        x += 1
-    return x
-
-def kvadrat(x):
-    return x * x
+from telegram.ext import Application, CommandHandler, MessageHandler, filters
+from token import BOT_TOKEN
+import random
+import requests
+# python-telegram-bot
 
 
-print("hello everyone")
+async def start(update, context):
+    await update.message.reply_text("Здравствуйте, добро пожаловать")
 
 
-x = 15
-print(x + x)
+async def chat(update, context):
+    pass
 
-print(123)
-print(123)
-print(123)
+
+app = Application.builder().token(BOT_TOKEN).build()
+app.add_handler(CommandHandler("start", start))
+app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, chat))
+app.run_polling()
