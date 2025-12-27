@@ -1,24 +1,18 @@
-def func(x):
+def func_x_25(x):
     x = x ** 2
     for i in range(25):
         x += 1
     return x
 
-def func2(x):
+def square(x):
     x = x ** 2
-    for i in range(25):
-        x += 1
     return x
 
-def func3(z):
-    z= z ** 2
-    for i in range(25):
-        z += 1
-    return z
 
-print("hello world")
+print("hello everyone")
 
-x = 10
+
+x = 15
 print(x + x)
 
 print(123)
