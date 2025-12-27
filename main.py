@@ -1,6 +1,6 @@
 def func(x):
     x = x ** 2
-    for i in range(19):
+    for i in range(25):
         x += 1
     return x
 
