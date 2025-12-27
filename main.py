@@ -23,3 +23,4 @@ print(x + x)
 
 print(123)
 print(123)
+print(123)
