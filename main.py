@@ -4,9 +4,8 @@ def func_x_25(x):
         x += 1
     return x
 
-def square(x):
-    x = x ** 2
-    return x
+def kvadrat(x):
+    return x * x
 
 
 print("hello everyone")
