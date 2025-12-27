@@ -20,3 +20,6 @@ print("hello world")
 
 x = 10
 print(x + x)
+
+print(123)
+print(123)
