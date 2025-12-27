@@ -1,5 +1,7 @@
 def func():
-    print(123)
+    print(321)
+    x = 1 + 1
+    print(x)
 
 print("hello world")
 
